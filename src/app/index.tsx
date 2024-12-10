@@ -1,9 +1,14 @@
-import { Text, View } from 'react-native'
+import { View } from 'react-native'
+
+import { Welcome } from '@/components/welcome'
+import { Steps } from '@/components/steps'
 
 export default function Index() {
   return (
-    <View>
-      <Text>Hello World</Text>
+    <View style={{ flex: 1, padding: 40, gap: 30 }}>
+      <Welcome />
+
+      <Steps />
     </View>
   )
 }
