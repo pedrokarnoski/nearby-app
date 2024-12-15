@@ -6,19 +6,19 @@ export const s = StyleSheet.create({
     backgroundColor: colors.gray[100],
   },
   content: {
-    gap: 12,
-    padding: 24,
-    paddingBottom: 100,
+    gap: 8,
+    padding: 20,
+    paddingBottom: 60,
   },
   indicator: {
-    width: 80,
+    width: 64,
     height: 4,
     backgroundColor: colors.gray[300],
   },
   title: {
     color: colors.gray[600],
-    fontSize: 16,
-    fontFamily: fontFamily.regular,
-    marginBottom: 16,
+    fontSize: 14,
+    fontFamily: fontFamily.medium,
+    marginBottom: 12,
   },
 })

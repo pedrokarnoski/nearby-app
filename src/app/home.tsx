@@ -45,7 +45,7 @@ export default function Home() {
   }, [])
 
   useEffect(() => {
-    if (category) fetchMakets()
+    fetchMakets()
   }, [category])
 
   return (
